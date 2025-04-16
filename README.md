@@ -33,7 +33,7 @@ This project analyzes Yellow Taxi trip data in New York City and builds a **Line
 
 1. **Clone the Repository** or download the `.ipynb` and `.parquet` file
    Make sure you have Python installed (3.8+ recommended)
-   git clone https://github.com/AnaTupa/nyc-taxi-fare-prediction.git
+   git clone [https://github.com/AnaTupa/nyc-taxi-fare-prediction](https://github.com/AnaTupa/Fare_Prediction_Model).git
    cd nyc-taxi-fare-prediction
 2. **Create a Virtual Environment**:
    python -m venv venv
