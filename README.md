@@ -37,9 +37,9 @@ This project analyzes Yellow Taxi trip data in New York City and builds a **Line
    cd nyc-taxi-fare-prediction
 2. **Create a Virtual Environment**:
    python -m venv venv
-   # Windows
+   Windows:
    venv\Scripts\activate
-   # macOS/Linux
+   macOS/Linux:
    source venv/bin/activate
 4. **Install dependencies**:
    pip install -r requirements.txt
