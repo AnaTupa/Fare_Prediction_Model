@@ -31,16 +31,20 @@ This project analyzes Yellow Taxi trip data in New York City and builds a **Line
 
 ## 🛠️ How to Run
 
-1. **Clone the repo** or download the `.ipynb` and `.parquet` file
-2. Make sure you have Python installed (3.8+ recommended)
-
-3. **Install dependencies**:
-   ```bash
-   pip install pandas numpy scikit-learn seaborn matplotlib statsmodels pyarrow
-   ```
-
-4. **Run the notebook**:
-   Open `Copy_of_Taxi_Dataset.ipynb` in Jupyter Notebook, Google Colab, or VS Code and execute all cells.
+1. **Clone the Repository** or download the `.ipynb` and `.parquet` file
+   Make sure you have Python installed (3.8+ recommended)
+   git clone https://github.com/AnaTupa/nyc-taxi-fare-prediction.git
+   cd nyc-taxi-fare-prediction
+2. **Create a Virtual Environment**:
+   python -m venv venv
+   # Windows
+   venv\Scripts\activate
+   # macOS/Linux
+   source venv/bin/activate
+4. **Install dependencies**:
+   pip install -r requirements.txt
+5. **Run the App**:
+   streamlit run app.py
 
 ---
 
@@ -58,8 +62,11 @@ This project analyzes Yellow Taxi trip data in New York City and builds a **Line
 ## 📁 Project Structure
 
 ```
-├── Copy_of_Taxi_Dataset.ipynb
-├── yellow_tripdata_2024-08.parquet
-├── A_high-resolution_digital_photograph_captures_Time.png
-└── README.md
+nyc-taxi-fare-prediction/
+├── app.py                  # Main Streamlit app
+├── fare_model.pkl          # Trained model
+├── scaler.pkl              # StandardScaler for preprocessing
+├── taxi_zone_lookup.csv    # NYC Taxi zone lookup data
+├── taxi.png                # Header image
+└── README.md               # Project instructions
 ```
