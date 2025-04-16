@@ -61,7 +61,7 @@ This project analyzes Yellow Taxi trip data in New York City and builds a **Line
 ## 📁 Project Structure
 
 ```
-nyc-taxi-fare-prediction/
+Fare_Prediction_Model/
 ├── app.py                  # Main Streamlit app
 ├── fare_model.pkl          # Trained model
 ├── scaler.pkl              # StandardScaler for preprocessing
